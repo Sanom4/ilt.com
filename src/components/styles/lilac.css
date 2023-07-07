@@ -1,0 +1,18 @@
+.lilac-animation {
+    background-image: url('https://media.istockphoto.com/id/482906647/vector/branch-of-lilac-flowers-vector-illustration.jpg?s=612x612&w=0&k=20&c=tcy2zPz-1FIpUbZlzjrwHKgrT_rdCFaQ7X8JLzK2IFY=');
+    background-repeat: repeat;
+    animation: move-flowers 10s linear infinite;
+  }
+  
+  @keyframes move-flowers {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+
+.button-lilac {
+    margin-left: 5px;
+}
