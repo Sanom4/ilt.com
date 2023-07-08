@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl font-bold mb-4 Comfortaa">
+      <h2 className="text-xl font-bold mb-4 Comfortaa p-4">
         I am a flower, vibrant and bright, <br />
         In shades of purple, a lovely sight. <br />
         My scent is sweet, my petals divine, <br />
