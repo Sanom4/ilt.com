@@ -18,7 +18,7 @@ const Love = () => {
     <div>
       {isAuthenticated ? (
         <video className="w-full" controls autoPlay>
-          <source src="https://westream.ge/lilac2.mp4" type="video/mp4" />
+          <source src="https://westream.ge/lilacfinal.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       ) : (
