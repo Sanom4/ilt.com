@@ -63,10 +63,10 @@ const Home = () => {
           <h2 className="text-xl font-bold mb-4 Comfortaa">Its purple and flower the riddle is the answer.</h2>
           <p className='Fasthand'>Your answer is incorrect.</p>
           <button
-            className="bg-purple-500 text-white rounded-md px-4 py-2 mt-4 button-lilac Comfortaa"
+            className="bg-purple-500 text-white rounded-md px-4 py-2 mt-4 button-lilac Fasthand"
             onClick={closeModal}
           >
-            To the form
+            To the Lilac field...
           </button>
         </div>
       </Modal>
