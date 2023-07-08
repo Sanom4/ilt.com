@@ -3,7 +3,7 @@ import { AuthContext } from '../components/User/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 const Love = () => {
-  const { isAuthenticated, setAuthenticated } = useContext(AuthContext);
+  const { isAuthenticated } = useContext(AuthContext);
   const navigate = useNavigate();
   const isInitialRender = useRef(true);
 
