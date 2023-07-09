@@ -15,4 +15,18 @@
 
 .button-lilac {
     margin-left: 5px;
+    border-radius: 0px!important;
+}
+
+.background-lilac {
+    background-color: #750ac62f;
+    background-image: url('https://westream.ge/lilac.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.backgroundopacity{
+    background-color: rgba(230, 230, 250, 0.722);
+    padding: 10px;
 }

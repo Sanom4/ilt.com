@@ -29,14 +29,14 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-base font-bold mb-4 Comfortaa p-4">
+      <h2 className="text-base font-bold mb-4 Comfortaa p-4 backgroundopacity">
         I am a flower, vibrant and bright, <br />
         In shades of purple, a lovely sight. <br />
         My scent is sweet, my petals divine, <br />
         Guess my name, it's time to shine. <br />
         <br />
         <p className="text-center bg-black text-lilac Fasthand text-3xl"> What am I?</p>
-      </h2>
+
       <form onSubmit={handleSubmit}>
         <input
           type="password"
@@ -51,7 +51,9 @@ const Home = () => {
         >
           Answer
         </button>
+
       </form>
+      </h2>
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}

@@ -3,7 +3,7 @@ import React from 'react';
 
 function Layout({ children }) {
   return (
-    <div className="min-h-screen bg-lilac bg-lilac-animation">
+    <div className="min-h-screen bg-lilac bg-lilac-animation background-lilac">
       <header className="py-4">
       <p className="text-center text-white Fasthand text-3xl">iLoveTamar.com</p>
       </header>
