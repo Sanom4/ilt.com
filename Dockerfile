@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Build the React app (if needed)
-RUN npm run build
+#RUN npm run build
 
 # Expose the port that the app will run on
 EXPOSE 3000
